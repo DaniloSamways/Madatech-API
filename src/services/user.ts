@@ -5,7 +5,7 @@ interface user {
   name: string;
   cpf: string;
   birthDate: string;
-  senha: string;
+  senha?: string;
 }
 
 export class UserService {
