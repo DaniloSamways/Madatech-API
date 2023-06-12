@@ -7,7 +7,7 @@ export class AuthenticateService {
     // mas nesse caso, criei um banco de dados fake para simular.
 
     const query = database.find((userDB) => {
-      if (userDB.name === user && userDB.senha === password) {
+      if (userDB.name === user && userDB.password === password) {
         return userDB;
       }
     })
